@@ -12,7 +12,8 @@ export const Day: React.FC<DayProps> = ({ number, isSelected, onClick }) => {
   const isCurrentDay = number === currentDay;
 
   function handleClick() {
-    if (number > currentDay) return;
+    if (number >
+       currentDay) return;
     onClick(number);
   }
   
