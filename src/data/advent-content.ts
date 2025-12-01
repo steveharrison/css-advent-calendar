@@ -99,7 +99,7 @@ export const adventContent: Record<number, DayContent> = {
 </div>`,
     links: {
       mdn: "https://developer.mozilla.org/en-US/docs/Web/CSS/attr",
-      webdev: "https://web.dev/blog/web-platform-02-2025"
+      webdev: "https://developer.chrome.com/blog/advanced-attr"
     },
     browserSupport: {
       chrome: "133+",
@@ -127,7 +127,7 @@ export const adventContent: Record<number, DayContent> = {
   }
 }`,
     links: {
-      webdev: "https://web.dev/blog/web-platform-02-2025"
+      webdev: "https://developer.chrome.com/blog/css-scroll-state-queries"
     },
     browserSupport: {
       chrome: "133+",
@@ -150,7 +150,7 @@ export const adventContent: Record<number, DayContent> = {
 }`,
     links: {
       mdn: "https://developer.mozilla.org/en-US/docs/Web/CSS/text-box-trim",
-      webdev: "https://web.dev/blog/web-platform-02-2025"
+      webdev: "https://developer.chrome.com/blog/css-text-box-trim"
     },
     browserSupport: {
       chrome: "133+",
@@ -172,7 +172,7 @@ export const adventContent: Record<number, DayContent> = {
 </div>`,
     links: {
       mdn: "https://developer.mozilla.org/en-US/docs/Web/API/Popover_API",
-      webdev: "https://web.dev/blog/web-platform-02-2025"
+      webdev: "https://developer.chrome.com/blog/popover-hint"
     },
     browserSupport: {
       chrome: "133+",
@@ -219,7 +219,7 @@ select:open {
 }`,
     links: {
       mdn: "https://developer.mozilla.org/en-US/docs/Web/CSS/:open",
-      webdev: "https://web.dev/blog/web-platform-03-2025"
+      webdev: "https://web.dev/blog/web-platform-03-2025#new_pseudo-classes_has-slotted_and_open"
     },
     browserSupport: {
       chrome: "133+",
@@ -245,7 +245,7 @@ console.log(formatter.format(duration));
 // "2 hours, 30 minutes, 15 seconds"`,
     links: {
       mdn: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DurationFormat",
-      webdev: "https://web.dev/blog/web-platform-03-2025"
+      webdev: "https://web.dev/blog/web-platform-03-2025#intldurationformat"
     },
     browserSupport: {
       chrome: "129+",
@@ -264,7 +264,7 @@ console.log(formatter.format(duration));
 </div>`,
     links: {
       mdn: "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable",
-      webdev: "https://web.dev/blog/web-platform-03-2025"
+      webdev: "https://web.dev/blog/web-platform-03-2025#the_plaintext-only_value_of_the_contenteditable_attribute"
     },
     browserSupport: {
       chrome: "51+",
@@ -287,7 +287,7 @@ console.log(formatter.format(duration));
 }`,
     links: {
       mdn: "https://developer.mozilla.org/en-US/docs/Web/CSS/basic-shape/shape",
-      webdev: "https://web.dev/blog/web-platform-04-2025"
+      webdev: "https://web.dev/blog/web-platform-04-2025#the_css_shape_function"
     },
     browserSupport: {
       chrome: "135+",
@@ -319,7 +319,7 @@ console.log(formatter.format(duration));
   background: blue;
 }`,
     links: {
-      webdev: "https://web.dev/blog/web-platform-04-2025"
+      webdev: "https://web.dev/blog/web-platform-04-2025#carousels_land_in_chrome"
     },
     browserSupport: {
       chrome: "135+",
@@ -344,7 +344,7 @@ console.log(formatter.format(duration));
   background: #e0e0ff;
 }`,
     links: {
-      webdev: "https://web.dev/blog/web-platform-04-2025"
+      webdev: "https://web.dev/blog/web-platform-04-2025#carousels_land_in_chrome"
     },
     browserSupport: {
       chrome: "135+",
@@ -356,20 +356,11 @@ console.log(formatter.format(duration));
   15: {
     title: "interactivity Property",
     description: "Chrome 135 (April 2025) introduced the interactivity property to specify whether an element and its descendants are inert, affecting focus, editing, selection, and accessibility.",
-    code: `.modal-backdrop {
-  interactivity: inert;
-}
-
-.interactive-content {
-  interactivity: auto;
-}
-
-/* When modal is open */
-.page-content {
+    code: `.backdrop {
   interactivity: inert;
 }`,
     links: {
-      webdev: "https://web.dev/blog/web-platform-04-2025"
+      webdev: "https://web.dev/blog/web-platform-04-2025#carousels_land_in_chrome"
     },
     browserSupport: {
       chrome: "135+",
@@ -395,11 +386,11 @@ console.log(formatter.format(duration));
   Close Modal
 </button>`,
     links: {
-      webdev: "https://web.dev/blog/web-platform-04-2025"
+      webdev: "https://web.dev/blog/web-platform-04-2025#the_command_and_commandfor_attributes"
     },
     browserSupport: {
       chrome: "135+",
-      firefox: "144",
+      firefox: "144+",
       safari: "TP",
       edge: "135+"
     }
@@ -419,7 +410,7 @@ const tokyoTime = nyTime.withTimeZone('Asia/Tokyo');
 const duration = Temporal.Duration.from({ hours: 2, minutes: 30 });`,
     links: {
       mdn: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Temporal",
-      webdev: "https://web.dev/blog/web-platform-05-2025"
+      webdev: "https://web.dev/blog/web-platform-05-2025#temporal_api"
     },
     browserSupport: {
       chrome: "No",
@@ -444,7 +435,7 @@ document.querySelector('#secret')
 </script>`,
     links: {
       mdn: "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/hidden",
-      webdev: "https://web.dev/blog/web-platform-05-2025"
+      webdev: "https://web.dev/blog/web-platform-05-2025#hiddenuntil-found_and_the_beforematch_event"
     },
     browserSupport: {
       chrome: "102+",
@@ -471,7 +462,7 @@ document.querySelector('#secret')
 .item-2 { reading-order: 3; }
 .item-3 { reading-order: 2; }`,
     links: {
-      webdev: "https://web.dev/blog/web-platform-05-2025"
+      webdev: "https://web.dev/blog/web-platform-05-2025#css_reading-flow_and_reading-order"
     },
     browserSupport: {
       chrome: "137+",
@@ -520,7 +511,7 @@ Document-Isolation-Policy: isolate-and-require-corp
 <!-- Non-CORS subresources need credentials or CORP -->
 <img src="..." crossorigin="use-credentials">`,
     links: {
-      webdev: "https://web.dev/blog/web-platform-05-2025"
+      webdev: "https://web.dev/blog/web-platform-05-2025#document-isolation-policy"
     },
     browserSupport: {
       chrome: "137+",
@@ -547,7 +538,7 @@ Promise.resolve()
   .catch(error => console.error(error));`,
     links: {
       mdn: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/try",
-      webdev: "https://web.dev/blog/web-platform-01-2025"
+      webdev: "https://web.dev/blog/web-platform-01-2025#promisetry_is_now_baseline_newly_available"
     },
     browserSupport: {
       chrome: "128+",
@@ -579,7 +570,7 @@ Promise.resolve()
     browserSupport: {
       chrome: "No",
       firefox: "No",
-      safari: "18+",
+      safari: "26+",
       edge: "No"
     }
   },
@@ -601,13 +592,12 @@ cookieStore.addEventListener('change', (event) => {
   console.log('Cookie changed:', event.changed);
 });`,
     links: {
-      mdn: "https://developer.mozilla.org/en-US/docs/Web/API/Cookie_Store_API",
-      webdev: "https://web.dev/blog/web-platform-05-2025"
+      mdn: "https://developer.mozilla.org/en-US/docs/Web/API/Cookie_Store_API"
     },
     browserSupport: {
       chrome: "87+",
-      firefox: "140+ (beta)",
-      safari: "No",
+      firefox: "140+",
+      safari: "18.4+",
       edge: "87+"
     }
   }
